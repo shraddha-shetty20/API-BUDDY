@@ -549,4 +549,4 @@ Git
 GitHub
 
 🚀 API Buddy — Test APIs without leaving VS Code.
-![alt text](<IMAGE.png>)
+![API Buddy Interface](IMAGE.png)
