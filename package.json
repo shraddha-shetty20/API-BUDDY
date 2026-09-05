@@ -1,0 +1,55 @@
+{
+  "name": "api-buddy",
+  "displayName": "API Buddy",
+  "description": "Test REST APIs directly from VS Code",
+  "version": "0.0.1",
+  "publisher": "api-buddy",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:apiBuddy.testApi",
+    "onCommand:apiBuddy.showHistory",
+    "onCommand:apiBuddy.saveApi",
+    "onCommand:apiBuddy.runSavedApi",
+    "onCommand:apiBuddy.deleteSavedApi",
+    "onCommand:apiBuddy.editSavedApi",
+    "onCommand:apiBuddy.openUI"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "apiBuddy.testApi",
+        "title": "API Buddy: Test API"
+      },
+      {
+        "command": "apiBuddy.showHistory",
+        "title": "API Buddy: Show History"
+      },
+      {
+        "command": "apiBuddy.saveApi",
+        "title": "API Buddy: Save API"
+      },
+      {
+        "command": "apiBuddy.runSavedApi",
+        "title": "API Buddy: Run Saved API"
+      },
+      {
+        "command": "apiBuddy.deleteSavedApi",
+        "title": "API Buddy: Delete Saved API"
+      },
+      {
+        "command": "apiBuddy.editSavedApi",
+        "title": "API Buddy: Edit Saved API"
+      },
+      {
+        "command": "apiBuddy.openUI",
+        "title": "API Buddy: Open UI"
+    }
+    ]
+  }
+}
