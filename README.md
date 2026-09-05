@@ -426,7 +426,7 @@ The project follows a simple development workflow:
 
 Write Code
     │
-    ▼
+    ▼ <br>
 Test in VS Code
     │
     ▼
@@ -445,7 +445,7 @@ git push
 GitHub Repository
 🌿 Git Workflow
 
-To check the current status:
+To check the current status:<br>
 
 git status
 
