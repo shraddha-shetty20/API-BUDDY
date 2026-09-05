@@ -244,12 +244,12 @@ Response Body
 
 The API response body is displayed inside the response panel.
 
-🧩 VS Code Extension Architecture
+               🧩 VS Code Extension Architecture
                     ┌─────────────────────┐
                     │      Developer      │
                     └──────────┬──────────┘
                                │
-                               ▼
+                               ▼ <br>
                     ┌─────────────────────┐
                     │       ui.html       │
                     │      Webview UI     │
