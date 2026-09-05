@@ -40,25 +40,6 @@ The response is displayed inside VS Code along with:
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TD
-
-    A[Developer] --> B[API Buddy UI]
-
-    B -->|Request Details| C[VS Code Extension]
-
-    C -->|HTTP Request| D[REST API]
-
-    D -->|HTTP Response| C
-
-    C -->|Response Data| B
-
-    B --> E[Status]
-    B --> F[Response Time]
-    B --> G[Response Headers]
-    B --> H[Response Body]
-
-    I[package.json] -->|Extension Configuration| C
 🔄 How It Works
 1. User Input
 
